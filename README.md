@@ -3,7 +3,7 @@
 
 <h2 align="center">
   Portfolio Website<br/>
-  <a href="https://www.mohitsojitra.tech/" target="_blank">mohitsojitra.tech</a>
+  <a href="h</a>
 </h2>
 
 
