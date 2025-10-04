@@ -3,9 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import eCom from "../../Assets/Projects/E-com.png";
-import jsomBlog from "../../Assets/Projects/jsomBlog.png";
-import taskify from "../../Assets/Projects/Taskify.png";
+import eCom from "../../Assets/Projects/shopping-app.png";
+import org from "../../Assets/Projects/selfless-ce.png";
+import inv from "../../Assets/Projects/lane-vc.png";
 import aF from "../../Assets/Projects/artisteeF.png";
 import aA from "../../Assets/Projects/artisteeA.png";
 import easyCode from "../../Assets/Projects/easy-code.png";
@@ -28,7 +28,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={taskify}
+              imgPath={eCom}
               isBlog={false}
               title=""
               description=" "
@@ -39,7 +39,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={easyCode}
+              imgPath={org}
               isBlog={false}
               title=""
               description=""
@@ -50,7 +50,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={eCom}
+              imgPath={inv}
               isBlog={false}
               title=""
               description=""
