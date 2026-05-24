@@ -6,9 +6,9 @@ import Particle from "../Particle";
 import eCom from "../../Assets/Projects/shopping-app.png";
 import org from "../../Assets/Projects/selfless-ce.png";
 import inv from "../../Assets/Projects/lane-vc.png";
-import aF from "../../Assets/Projects/artisteeF.png";
-import aA from "../../Assets/Projects/artisteeA.png";
-import easyCode from "../../Assets/Projects/easy-code.png";
+import cy from "../../Assets/Projects/cyberslide.png";
+import cb from "../../Assets/Projects/cybershop.png";
+import cw from "../../Assets/Projects/cybersweb.png";
 import ReactGA from "react-ga";
 
 function Projects() {
@@ -44,7 +44,7 @@ function Projects() {
               title=""
               description=""
               link="#"
-              liveLink="#"
+              liveLink="https://becomeselfless.org/"
             />
           </Col>
 
@@ -55,40 +55,40 @@ function Projects() {
               title=""
               description=""
               link="#"
-              liveLink="#"
+              liveLink="https://lane-vc-portal.onrender.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={easyCode}
+              imgPath={cw}
               isBlog={false}
               title=""
               description=""
               link="#"
-              liveLink="#"
+              liveLink="https://cyberstouch.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={aF}
+              imgPath={cy}
               isBlog={false}
               title=""
               description=""
               link="#"
-              liveLink="#"
+              liveLink="https://cyberstouch-slideshow.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={aA}
+              imgPath={cb}
               isBlog={false}
               title=""
               description=""
               link="#"
-              liveLink="#"
+              liveLink="https://sveltekit-commerce-five-pearl.vercel.app/"
             />
           </Col>
         </Row>
